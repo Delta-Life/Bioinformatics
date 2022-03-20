@@ -11,4 +11,4 @@ My solutions to [rosalind](https://rosalind.info/problems/locations/) problems.
 |Algorithmic Heights|[#########&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;]|&nbsp;&nbsp;16/&nbsp;34|
 
 ## Modern Statistics for Modern Biology
-Notes and solution for [Modern Statistics for Modern Biology](http://web.stanford.edu/class/bios221/book/index.html).
+Notes and solutions to [Modern Statistics for Modern Biology](http://web.stanford.edu/class/bios221/book/index.html).
