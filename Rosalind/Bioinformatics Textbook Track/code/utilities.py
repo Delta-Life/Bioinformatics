@@ -46,7 +46,7 @@ def get_amino_acid_mass_dict():
     return {i:int(j) for i, j in array}
 
 def get_answer_file():
-    filePath = sys.argv[0].split("\\")
+    filePath = sys.argv[0].split("/")
     return open("/".join(filePath[:-1]) + "/../answer/rosalind_" + filePath[-1].split(".")[0].lower() + ".txt", 'w')
 
 def get_complement_strand(strand):
@@ -99,7 +99,7 @@ def get_de_bruijn(strand_array):
     return kmer_dict
 
 def get_file():
-    filePath = sys.argv[0].split("\\")
+    filePath = sys.argv[0].split("/")
     return open("/".join(filePath[:-1]) + "/../data/rosalind_" + filePath[-1].split(".")[0].lower() + ".txt", 'r')
 
 def get_limb_length(distance, n, j):

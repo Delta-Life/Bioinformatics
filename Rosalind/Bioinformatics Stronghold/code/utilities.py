@@ -44,7 +44,7 @@ def factor(n):
     return n * factor(n-1) if n > 1 else 1
 
 def get_answer_file():
-    filePath = sys.argv[0].split("\\")
+    filePath = sys.argv[0].split("/")
     return open("/".join(filePath[:-1]) + "/../answer/rosalind_" + filePath[-1].split(".")[0].lower() + ".txt", 'w')
 
 def get_codon_table():
@@ -71,7 +71,7 @@ def get_complement_strand(strand):
     return strand[::-1].translate(translator)
 
 def get_file():
-    filePath = sys.argv[0].split("\\")
+    filePath = sys.argv[0].split("/")
     return open("/".join(filePath[:-1]) + "/../data/rosalind_" + filePath[-1].split(".")[0].lower() + ".txt", 'r')
 
 def get_permutations(arr, num):
